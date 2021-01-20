@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders correctly with callback props 1`] = `
+<div
+  className="c-card undefined"
+  onClick={[MockFunction]}
+  onKeyPress={[MockFunction]}
+  role="button"
+  tabindex="0"
+>
+  <p>
+    Some Test Content
+  </p>
+</div>
+`;
+
+exports[`Card renders correctly with callback props 2`] = `
+<div
+  className="c-card undefined"
+  onClick={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  onKeyPress={
+    [MockFunction] {
+      "calls": Array [
+        Array [],
+      ],
+      "results": Array [
+        Object {
+          "type": "return",
+          "value": undefined,
+        },
+      ],
+    }
+  }
+  role="button"
+  tabindex="0"
+>
+  <p>
+    Some Test Content
+  </p>
+</div>
+`;
