@@ -1,3 +1,10 @@
+## Tools used 
+ - React (with hooks) 
+ - Sass
+ 
+ I went with React for this project, while for a task this small it is heavy handed to bring in a framework I felt it would give a better sample of the type of code i would write while being part of the team and how I would structure things. 
+ I also added Sass (syntactically awesome style sheets). I only picked this up a year ago so decided to use this chance to flex it a bit and i've found it produces much nicer looking stylesheets which are easier to work with, and makes it much easier to share styles across your application with things like utility classes. Especially when paired with BEM naming conventions(http://getbem.com/naming/), which is somehing i picked up in my last position. It makes it really easy to see which styles go with what components and adds structure and common conventions to your styles 
+ 
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
