@@ -1,0 +1,33 @@
+// Screen sizes
+$large: 1024px;
+$medium: 768px; 
+$small: 480px;
+$xsSmall: 320px;
+
+// colours 
+$success: #03fc24;
+$primaryBackground: #FFF;
+$secondaryBackground: #cfcfcf;
+
+// layout 
+.u-flex {
+    display: flex; 
+    &--justify-center {
+        justify-content: center;
+    }
+    &--align-center {
+        align-content: center;
+    }
+    &--wrap {
+        flex-wrap: wrap;
+    }
+    &--direction-column {
+        flex-direction: column;
+    }
+}
+
+.u-text {
+    &--center {
+        text-align: center;
+    }
+}

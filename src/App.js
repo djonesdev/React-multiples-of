@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import "./App.css";
+import "./App.scss";
 import Card from "./Components/Card/Card";
 import { getMultiplesFromList } from "./Utils/utils";
 
@@ -19,20 +19,19 @@ function App() {
 
   const isMultipleOf = (number) =>
     listOfMutiples.includes(number)
-      ? "c-app__touchable-card is-multiple"
-      : "c-app__touchable-card";
+      ? "c-homepage__touchable-card is-multiple"
+      : "c-homepage__touchable-card";
   return (
-    <div className="App">
-      <div className="c-app__intro-container">
+    <div className="c-homepage">
+      <div className="c-homepage__intro-container">
         <p>
           Select a number below to see which numbers are multiples of your
           selected number!
         </p>
-        <div className="c-app__select-number-list">
+        <div className="c-homepage__select-number-list">
           {listOfMutiples.map((number) => (
             <Card>
-
-            <p className="c-app__select-number-list--item">{number}</p>
+              <p className="c-homepage__select-number-list--item">{number}</p>
             </Card>
           ))}
         </div>
