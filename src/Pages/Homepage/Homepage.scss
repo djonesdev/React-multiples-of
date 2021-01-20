@@ -1,4 +1,4 @@
-@import "./Assests/Styling/display";
+@import "../../Assests/Styling/display";
 
 .c-homepage {
   text-align: center;
@@ -12,6 +12,9 @@
   }
   &__touchable-card {
     flex-basis: 30%;
+    &--is-multiple {
+      background-color: $success;
+    }
     @media (min-width: $medium) and (max-width: $large) {
       flex-basis: 45%;
     }
@@ -45,6 +48,6 @@
   }
 }
 
-.is-multiple {
-  background-color: $success;
-}
+// .is-multiple {
+//   background-color: $success;
+// }

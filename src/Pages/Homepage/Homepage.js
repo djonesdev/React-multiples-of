@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 
-import "./App.scss";
-import Card from "./Components/Card/Card";
-import { getMultiplesFromList } from "./Utils/utils";
+import "./Homepage.scss";
+import Card from "../../Components/Card/Card";
+import { getMultiplesFromList } from "../../Utils/utils";
 
-function App() {
+function Homepage() {
   const [selectedNumber, setSelectedNumber] = useState();
   const [fullNumberList, setFullNumberList] = useState(
     Array.from(Array(144).keys())
@@ -19,7 +19,7 @@ function App() {
 
   const isMultipleOf = (number) =>
     listOfMutiples.includes(number)
-      ? "c-homepage__touchable-card is-multiple"
+      ? "c-homepage__touchable-card c-homepage__touchable-card--is-multiple"
       : "c-homepage__touchable-card";
   return (
     <div className="c-homepage">
@@ -48,4 +48,4 @@ function App() {
   );
 }
 
-export default App;
+export default Homepage;
